@@ -1,0 +1,596 @@
+;;╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+;;║ HEXAGONS                                                                                             ║
+;;╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+[HexaTainer]
+ Meter=Shape
+ X=274
+ Y=202
+ Shape=Rectangle 0,0,270,202 | Fill Color 0,0,0,255
+ UpdateDivider=-1
+
+[Hexagon00]
+ Meter=Shape
+ Shape=Path Hexagon | Extend ShapeMod | Extend ThisColor
+ Shape2=Path Hexagon | Extend ShapeMod2
+ Shape3=Combine Hexagon | Union HexagonLine
+ ShapeMod=Scale 6.75,6.75 | StrokeWidth 0
+ ShapeMod2=Scale 6.25,6.25 | Fill Color 0,0,0,0 | Stroke Color 255,68,46,50 | StrokeWidth 3
+ Hexagon=0,4 | LineTo 3.5,2 | LineTo 3.5,-2 | LineTo 0,-4 | LineTo -3.5,-2 | LineTo -3.5,2 | ClosePath 1
+ ThisColor=Fill Color 255,68,46,50
+ X=42
+ Y=36
+ Hidden=1
+ Group=page4 | Buttons
+ Container=HexaTainer
+ MouseOverAction=[!SetOption #CURRENTSECTION# ThisColor "Fill Color 255,68,46,175"]#PlayHover#[!UpdateMeter #CURRENTSECTION#]
+ MouseLeaveAction=[!SetOption #CURRENTSECTION# ThisColor "Fill Color 255,68,46,50"][!UpdateMeter #CURRENTSECTION#]
+ UpdateDivider=-1
+
+[Hexagon01]
+Meter=Shape
+MeterStyle=Hexagon00
+X=26R
+Y=0r
+
+[Hexagon02]
+Meter=Shape
+MeterStyle=Hexagon00
+X=26R
+Y=0r
+
+[Hexagon03]
+Meter=Shape
+MeterStyle=Hexagon00
+X=26R
+Y=0r
+
+[Hexagon04]
+Meter=Shape
+MeterStyle=Hexagon00
+X=26R
+Y=0r
+
+[Hexagon10]
+Meter=Shape
+MeterStyle=Hexagon00
+X=([Hexagon00:X]-274+25)
+Y=([Hexagon00:Y]-202+43)
+
+[Hexagon11]
+Meter=Shape
+MeterStyle=Hexagon00
+X=26R
+Y=0r
+
+[Hexagon12]
+Meter=Shape
+MeterStyle=Hexagon00
+X=26R
+Y=0r
+
+[Hexagon13]
+Meter=Shape
+MeterStyle=Hexagon00
+X=26R
+Y=0r
+
+[Hexagon14]
+Meter=Shape
+MeterStyle=Hexagon00
+X=26R
+Y=0r
+
+[Hexagon20]
+Meter=Shape
+MeterStyle=Hexagon00
+X=([Hexagon00:X]-274+25*4)
+Y=([Hexagon00:Y]-202+43*2)
+
+[Hexagon21]
+Meter=Shape
+MeterStyle=Hexagon00
+X=26R
+Y=0r
+
+[Hexagon22]
+Meter=Shape
+MeterStyle=Hexagon00
+X=26R
+Y=0r
+
+[Hexagon30]
+Meter=Shape
+MeterStyle=Hexagon00
+X=([Hexagon00:X]-274+25*5)
+Y=([Hexagon00:Y]-202+43*3)
+
+[Hexagon31]
+Meter=Shape
+MeterStyle=Hexagon00
+X=26R
+Y=0r
+
+[Hexagon32]
+Meter=Shape
+MeterStyle=Hexagon00
+X=26R
+Y=0r
+
+[HexaTainer2]
+ Meter=Shape
+ X=56
+ Y=244
+ Shape=Rectangle 0,0,270,202 | Fill Color 0,0,0,255
+
+[Hexagon40]
+ Meter=Shape
+ Shape=Path Hexagon | Extend ShapeMod | Extend ThisColor
+ Shape2=Path Hexagon | Extend ShapeMod2
+ Shape3=Combine Hexagon | Union HexagonLine
+ ShapeMod=Scale 6.75,6.75 | StrokeWidth 0
+ ShapeMod2=Scale 6.25,6.25 | Fill Color 0,0,0,0 | Stroke Color 255,230,56,75 | StrokeWidth 3
+ Hexagon=0,4 | LineTo 3.5,2 | LineTo 3.5,-2 | LineTo 0,-4 | LineTo -3.5,-2 | LineTo -3.5,2 | ClosePath 1
+ ThisColor=Fill Color 255,230,56,75
+ X=26
+ Y=36
+ Hidden=1
+ Group=page4 | Buttons
+ Container=HexaTainer2
+ MouseOverAction=[!SetOption #CURRENTSECTION# ThisColor "Fill Color 255,230,56,175"]#PlayHover#[!UpdateMeter #CURRENTSECTION#]
+ MouseLeaveAction=[!SetOption #CURRENTSECTION# ThisColor "Fill Color 255,230,56,75"][!UpdateMeter #CURRENTSECTION#]
+ UpdateDivider=-1
+
+[Hexagon41]
+Meter=Shape
+MeterStyle=Hexagon40
+X=26R
+Y=0r
+
+[Hexagon42]
+Meter=Shape
+MeterStyle=Hexagon40
+X=26R
+Y=0r
+
+[Hexagon50]
+Meter=Shape
+MeterStyle=Hexagon40
+X=([Hexagon40:X]-56+25*-1)
+Y=([Hexagon40:Y]-244+43*1)
+
+[Hexagon51]
+Meter=Shape
+MeterStyle=Hexagon40
+X=26R
+Y=0r
+
+[Hexagon52]
+Meter=Shape
+MeterStyle=Hexagon40
+X=26R
+Y=0r
+
+[Hexagon53]
+Meter=Shape
+MeterStyle=Hexagon40
+X=26R
+Y=0r
+
+[Hexagon54]
+Meter=Shape
+MeterStyle=Hexagon40
+X=26R
+Y=0r
+
+[Hexagon60]
+Meter=Shape
+MeterStyle=Hexagon40
+X=([Hexagon40:X]-56+25*0)
+Y=([Hexagon40:Y]-244+43*2)
+
+[Hexagon61]
+Meter=Shape
+MeterStyle=Hexagon40
+X=26R
+Y=0r
+
+[Hexagon62]
+Meter=Shape
+MeterStyle=Hexagon40
+X=26R
+Y=0r
+
+[Hexagon63]
+Meter=Shape
+MeterStyle=Hexagon40
+X=26R
+Y=0r
+
+[Hexagon64]
+Meter=Shape
+MeterStyle=Hexagon40
+X=26R
+Y=0r
+
+
+;;╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+;;║ SKIN SETTINGS                                                                                        ║
+;;╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+[SkinSetText]
+ Meter=String
+ Text=JAXLAUNCH
+ FontSize=20
+ AntiAlias=1
+ FontFace=Oxanium Bold
+ FontWeight=800
+ InlineSetting=GradientColor | 180 | ffe638FF ; 0.0 | 250,247,157,255 ; 1.0
+ InlinePattern=JAXLAUNCH
+ X=70
+ Y=225
+ Group=page4 | Buttons
+ Hidden=1
+ UpdateDivider=-1
+
+
+[InitPage]
+ Meter=Image
+ ImageName=#@#\Images\Set\page0.png
+ X=([Hexagon40:X]-56-40/2)
+ Y=([Hexagon40:Y]-244-40/2)
+ W=40
+ H=40
+ Group=page4 | Buttons
+ AntiAlias=1
+ Hidden=1
+ SolidColor=#DEVMODE#
+ Container=HexaTainer2
+ LeftMouseDownAction=[!UpdateMeasure InitPageMeasure][!UpdateMeter #CURRENTSECTION#]
+ UpdateDivider=-1
+
+[InitPageMeasure]
+Measure=Calc
+Formula=(#pagechange#)
+IfCondition=([InitPageMeasure] = 0)
+IfTrueAction=[!WriteKeyValue Variables Page 1 "settings.inc"][!SetOption InitPage ImageName #@#\Images\Set\page1.png][!SetVariable pagechange 1]
+IfCondition2=([InitPageMeasure] = 1)
+IfTrueAction2=[!WriteKeyValue Variables Page 2 "settings.inc"][!SetOption InitPage ImageName #@#\Images\Set\page2.png][!SetVariable pagechange 2]
+IfCondition3=([InitPageMeasure] = 2)
+IfTrueAction3=[!WriteKeyValue Variables Page 3 "settings.inc"][!SetOption InitPage ImageName #@#\Images\Set\page3.png][!SetVariable pagechange 3]
+IfCondition4=([InitPageMeasure] = 3)
+IfTrueAction4=[!WriteKeyValue Variables Page 4 "settings.inc"][!SetOption InitPage ImageName #@#\Images\Set\page4.png][!SetVariable pagechange 4]
+IfCondition5=([InitPageMeasure] = 4)
+IfTrueAction5=[!WriteKeyValue Variables Page 0 "settings.inc"][!SetOption InitPage ImageName #@#\Images\Set\page0.png][!SetVariable pagechange 0]
+UpdateDivider=-1
+DynamicVariables=1
+
+
+
+[AnimSpeedButton]
+ Meter=Image
+ ImageName=#@#\Images\Set\Speed.png
+ X=14R
+ Y=4r
+ W=32
+ H=32
+ Group=page4 | Buttons
+ AntiAlias=1
+ Hidden=1
+ SolidColor=#DEVMODE#
+ Container=HexaTainer2
+ LeftMouseDownAction=[!ShowMeter AnimationChanger][!SetOption AnimSpeedButton ImageAlpha 0][!WriteKeyValue Variables AnimationSpeed #AnimationSpeed# "settings.inc"][!UpdateMeterGroup page4]
+ UpdateDivider=-1
+
+[AppGapButton]
+ Meter=Image
+ ImageName=#@#\Images\Set\AppGap.png
+ X=18R
+ Y=0r
+ W=32
+ H=32
+ Group=page4 | Buttons
+ AntiAlias=1
+ Hidden=1
+ SolidColor=#DEVMODE#
+ Container=HexaTainer2
+ LeftMouseDownAction=[!ShowMeter AppGapChanger][!SetOption AppGapButton ImageAlpha 0][!WriteKeyValue Variables AppGap #AppGap# "settings.inc"][!UpdateMeterGroup page4]
+ UpdateDivider=-1
+
+[AppSizeButton]
+ Meter=Image
+ ImageName=#@#\Images\Set\AppSize.png
+ X=18R
+ Y=0r
+ W=32
+ H=32
+ Group=page4 | Buttons
+ AntiAlias=1
+ Hidden=1
+ SolidColor=#DEVMODE#
+ Container=HexaTainer2
+ LeftMouseDownAction=[!UpdateMeasure InitPageMeasure][!UpdateMeter #CURRENTSECTION#]
+ UpdateDivider=-1
+
+
+[AppSizeBang]
+ MouseScrollDownAction=[!SetVariable AppSize "(Clamp(#AppSize#-2, 10, 80))"]
+ MouseScrollUpAction=[!SetVariable AppSize "(Clamp(#AppSize#+2, 10, 80))"]
+
+[DeveloperBox]
+ Meter=Image
+ X=([Hexagon60:X]-56-32/2)
+ Y=([Hexagon60:Y]-244-32/2)
+ W=32
+ H=32
+ SolidColor=#DEVMODE#
+ LeftMouseDownAction=[!SetVariable Editing 1][!UpdateMeasure DeveloperMeasure][!UpdateMeterGroup page4]
+ Container=HexaTainer2
+ Hidden=1
+ Group=page4 | Buttons
+ UpdateDivider=-1
+
+[DeveloperMeasure]
+ Measure=String
+ String=(#DEVMODE# #Editing#)
+ IfMatch="0,0,0,1 1"
+ IfMatchAction=[!SetOption DeveloperBox ImageName "#@#\Images\Set\Yes.png"][!WriteKeyValue Variables DEVMODE "255,255,255,100" "settings.inc"][!refresh]
+ IfMatch2="255,255,255,100 1"
+ IfMatchAction2=[!SetOption DeveloperBox ImageName "#@#\Images\Set\No.png"][!WriteKeyValue Variables DEVMODE "0,0,0,1" "settings.inc"][!refresh]
+ IfMatch3="0,0,0,1 -1"
+ IfMatchAction3=[!SetOption DeveloperBox ImageName "#@#\Images\Set\No.png"]
+ IfMatch4="255,255,255,100 -1"
+ IfMatchAction4=[!SetOption DeveloperBox ImageName "#@#\Images\Set\Yes.png"]
+ UpdateDivider=-1
+ DynamicVariables=1
+
+
+
+[AnimationChanger]
+ Meter=String
+ Text=#AnimationSpeed#
+ Fontface=Oxanium Regular
+ X=75.75
+ Y=25
+ FontSize=15
+ FontColor=FFFFFF
+ AntiAlias=1
+ Group=Buttons
+ Hidden=1
+ StringAlign=Center
+ Container=HexaTainer2
+ SolidColor=#DEVMODE#
+ LeftMouseDownAction=[!HideMeter AnimationChanger][!SetOption AnimSpeedButton ImageAlpha 255][!WriteKeyValue Variables AnimationSpeed #AnimationSpeed# "settings.inc"][!UpdateMeterGroup page4]
+ MouseScrollDownAction=[!SetVariable AnimationSpeed "(Clamp(#AnimationSpeed#-5, 40, 500))"][!UpdateMeter #CURRENTSECTION#]
+ MouseScrollUpAction=[!SetVariable AnimationSpeed "(Clamp(#AnimationSpeed#+5, 40, 500))"][!UpdateMeter #CURRENTSECTION#]
+ MiddleMouseDownAction=[!SetVariable AnimationSpeed 250][!UpdateMeter AnimationChanger]
+ UpdateDivider=-1
+ DynamicVariables=1
+
+[AppGapChanger]
+ Meter=String
+ Text=#AppGap#
+ Fontface=Oxanium Regular
+ X=125.75
+ Y=25
+ FontSize=15
+ FontColor=FFFFFF
+ AntiAlias=1
+ Group=Buttons
+ Hidden=1
+ StringAlign=Center
+ Container=HexaTainer2
+ SolidColor=#DEVMODE#
+ LeftMouseDownAction=[!HideMeter AppGapChanger][!SetOption AppGapButton ImageAlpha 255][!WriteKeyValue Variables AppGap #AppGap# "settings.inc"][!UpdateMeterGroup page4]
+ MouseScrollDownAction=[!SetVariable AppGap "(Clamp(#AppGap#-2, 0, 30))"][!UpdateMeter #CURRENTSECTION#]
+ MouseScrollUpAction=[!SetVariable AppGap "(Clamp(#AppGap#+2, 0, 30))"][!UpdateMeter #CURRENTSECTION#]
+ MiddleMouseDownAction=[!SetVariable AppGap 10][!UpdateMeter AnimationChanger]
+ UpdateDivider=-1
+ DynamicVariables=1
+
+[AppSizeChanger]
+ Meter=
+ Text=#AppSize#
+ Fontface=Oxanium Regular
+ X=10R
+ Y=0r
+ FontSize=15
+ FontColor=FFFFFF
+ AntiAlias=1
+ Group=page4 | Buttons
+ Hidden=1
+ DynamicVariables=1
+ SolidColor=#DEVMODE#
+ LeftMouseDownAction=[!SetVariable Editing (#Editing#*-1)][!SetVariable EditComponent #CURRENTSECTION#][!UpdateMeasure CheckComponent][!WriteKeyValue Variables AppSize #AppSize# "settings.inc"][!UpdateMeterGroup page4]
+ UpdateDivider=-1
+
+;;╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+;;║ SETTINGS                                                                                             ║
+;;╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+[MuteState]  
+ Meter=Image
+ Imagename=#@#\Images\Set\Muted.png
+ X=([Hexagon00:X]-274-#SettingSize#/2+1)
+ Y=([Hexagon00:Y]-202-#SettingSize#/2)
+ W=#SettingSize#
+ H=#SettingSize#
+ Group=page4 | Buttons
+ AntiAlias=1
+ Hidden=1
+ Container=HexaTainer
+ LeftMouseDownAction=[!CommandMeasure "MeasureCurrentVolume ToggleMute"][!Delay 20][!UpdateMeasure MuteStatus][!UpdateMeter VolumeText]
+ RightMouseDownAction="C:\Users\Jax4Real\Desktop\sounds.bat"
+ UpdateDivider=-1
+
+[VolumeText]
+ Meter=String
+ MeasureName=PercentageCalc
+ X=([Hexagon01:X]-274+24)
+ Y=([Hexagon01:Y]-202-10)
+ FontSize=16
+ FontFace=Oxanium Bold
+ FontColor=ffe638FF
+ StringAlign=Center
+ AntiAlias=1
+ Hidden=1
+Container=HexaTainer
+ MouseScrollUpAction=[!CommandMeasure "MeasureCurrentVolume ChangeVolume +5"][!UpdateMeter #CURRENTSECTION#]
+ MouseScrollDownAction=[!CommandMeasure "MeasureCurrentVolume ChangeVolume -5"][!UpdateMeter #CURRENTSECTION#]
+ Group=page4 | Buttons
+ UpdateDivider=-1
+
+[OpenMixer]
+ Meter=Image
+ Imagename=#@#\Images\Set\Adjust.png
+ X=([Hexagon02:X]-274+29.5)
+ Y=([Hexagon02:Y]-202-#SettingSize#/2)
+ W=#SettingSize#
+ H=#SettingSize#
+ Group=page4 | Buttons
+ AntiAlias=1
+ LeftMouseDownAction="C:\Windows\System32\SndVol.exe"
+ Hidden=1
+Container=HexaTainer
+ UpdateDivider=-1
+
+[OpenCalculator]
+ Meter=Image
+ Imagename=#@#\Images\Set\Calculator.png
+ X=([Hexagon03:X]-274+53.5)
+ Y=([Hexagon03:Y]-202-#SettingSize#/2)
+ W=#SettingSize#
+ H=#SettingSize#
+ Group=page4 | Buttons
+ AntiAlias=1
+ LeftMouseDownAction="C:\Windows\System32\Calc.exe"
+ Hidden=1
+Container=HexaTainer
+ UpdateDivider=-1
+
+[OpenApps]
+ Meter=Image
+ Imagename=#@#\Images\Set\Apps.png
+ X=([Hexagon04:X]-274+77)
+ Y=([Hexagon04:Y]-202-#SettingSize#/2)
+ W=#SettingSize#
+ H=#SettingSize#
+ Group=page4 | Buttons
+ AntiAlias=1
+ LeftMouseDownAction=["ms-settings:appsfeatures-app"]
+ Hidden=1
+Container=HexaTainer
+ UpdateDivider=-1
+
+[OpenWE]
+ Meter=Image
+ Imagename=#@#\Images\Set\WallEngine.png
+ X=([Hexagon10:X]-274-#SettingSize#/2+1)
+ Y=([Hexagon10:Y]-202-#SettingSize#/2)
+ W=#SettingSize#
+ H=#SettingSize#
+ Group=page4 | Buttons
+ AntiAlias=1
+ LeftMouseDownAction=#WallEnginePath#
+ Hidden=1
+Container=HexaTainer
+ UpdateDivider=-1
+
+[OpenThemes]
+ Meter=Image
+ Imagename=#@#\Images\Set\Themes.png
+ X=([Hexagon11:X]-274+7)
+ Y=([Hexagon11:Y]-202-#SettingSize#/2)
+ W=#SettingSize#
+ H=#SettingSize#
+ Group=page4 | Buttons
+ AntiAlias=1
+ LeftMouseDownAction=["ms-settings:themes"]
+ Hidden=1
+Container=HexaTainer
+ UpdateDivider=-1
+
+[OpenPrinter]
+ Meter=Image
+ Imagename=#@#\Images\Set\Printer.png
+ X=([Hexagon12:X]-274+29)
+ Y=([Hexagon12:Y]-202-#SettingSize#/2)
+ W=#SettingSize#
+ H=#SettingSize#
+ Group=page4 | Buttons
+ AntiAlias=1
+ LeftMouseDownAction=["ms-settings:printers"]
+ Hidden=1
+Container=HexaTainer
+ UpdateDivider=-1
+
+[OpenFont]
+ Meter=Image
+ Imagename=#@#\Images\Set\Font.png
+ X=([Hexagon13:X]-274+55)
+ Y=([Hexagon13:Y]-202-#SettingSize#/2)
+ W=#SettingSize#
+ H=#SettingSize#
+ Group=page4 | Buttons
+ AntiAlias=1
+ LeftMouseDownAction=["ms-settings:themes"]
+ Hidden=1
+Container=HexaTainer
+ UpdateDivider=-1
+
+
+[OpenBT]
+ Meter=Image
+ Imagename=#@#\Images\Set\Bluetooth.png
+ X=([Hexagon20:X]-274-#SettingSize#/2+1)
+ Y=([Hexagon20:Y]-202-#SettingSize#/2)
+ W=#SettingSize#
+ H=#SettingSize#
+ Group=page4 | Buttons
+ AntiAlias=1
+ LeftMouseDownAction=["ms-settings:bluetooth"]
+ Hidden=1
+Container=HexaTainer
+ UpdateDivider=-1
+
+[OpenWifi]
+ Meter=Image
+ Imagename=#@#\Images\Set\WiFi.png
+ X=([Hexagon21:X]-274+5)
+ Y=([Hexagon21:Y]-202-#SettingSize#/2)
+ W=#SettingSize#
+ H=#SettingSize#
+ Group=page4 | Buttons
+ AntiAlias=1
+ LeftMouseDownAction=["ms-availablenetworks:"]
+ Hidden=1
+Container=HexaTainer
+ UpdateDivider=-1
+
+[OpenTM]
+ Meter=Image
+ Imagename=#@#\Images\Set\TaskManager.png
+ X=([Hexagon30:X]-274-#SettingSize#/2+1)
+ Y=([Hexagon30:Y]-202-#SettingSize#/2)
+ W=#SettingSize#
+ H=#SettingSize#
+ Group=page4 | Buttons
+ AntiAlias=1
+ LeftMouseDownAction=["taskmgr.exe"]
+ Hidden=1
+Container=HexaTainer
+ UpdateDivider=-1
+
+[OpenSettings]
+ Meter=Image
+ Imagename=#@#\Images\Set\Settings.png
+ X=([Hexagon31:X]-274+5)
+ Y=([Hexagon31:Y]-202-#SettingSize#/2)
+ W=#SettingSize#
+ H=#SettingSize#
+ Group=page4 | Buttons
+ AntiAlias=1
+ LeftMouseDownAction=["ms-settings:settings"]
+ Hidden=1
+Container=HexaTainer
+ UpdateDivider=-1
