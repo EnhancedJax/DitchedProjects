@@ -1,0 +1,31 @@
+[Variables]
+CustomActionKey1=(?i)rocket(?-i)
+CustomActionKey2=(?i)task(?-i)
+CustomActionKey3=(?i)fire(?-i)
+CustomActionKey4=white
+CustomActionKey5=_
+CustomActionKey6=_
+CustomActionKey7=_
+CustomActionKey8=_
+CustomActionKey9=_
+CustomActionKey10=_
+CustomActionKey11=_
+CustomActionKey12=_
+CustomActionKey13=_
+CustomActionKey14=_
+CustomActionKey15=mc
+CustomAction1=[com.epicgames.launcher://apps/Sugar?action=launch&silent=true]
+CustomAction2=taskmgr
+CustomAction3=C:\Program Files\Mozilla Firefox\firefox.exe
+CustomAction4=shell:appsfolder\Microsoft.Whiteboard_8wekyb3d8bbwe!Whiteboard
+CustomAction5=_
+CustomAction6=_
+CustomAction7=_
+CustomAction8=_
+CustomAction9=_
+CustomAction10=_
+CustomAction11=_
+CustomAction12=_
+CustomAction13=_
+CustomAction14=_
+CustomAction15=C:\Program Files (x86)\Minecraft Launcher\MinecraftLauncher.exe
