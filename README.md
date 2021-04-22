@@ -1,6 +1,11 @@
 # DitchedProjects
 Past projects by me which were never finished. All the projects here aims to replace the start menu, but failed due to number of reasons.
 
+### Warning: Some skins would turn your taskbar off directly. You can restore it by [restarting explorer.exe](https://www.businessinsider.com/how-to-restart-windows-explorer)
+
+
+
+# List of skins
 ### RainCenter
 ![](https://github.com/EnhancedJax/DitchedProjects/blob/master/RainCenter/%40Resources/Graphics/GUIs/Logo.png)
 
