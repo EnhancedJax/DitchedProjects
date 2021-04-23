@@ -7,7 +7,7 @@
 Past rainmeter projects which were never finished. All the projects here are made by me and aims to replace the start menu, but failed due to number of reasons.
 Please also note that they are not meant to be stable or user friendly, as they are never near completed.
 
-### Warning: Some skins would turn your taskbar off directly. You can restore it by [restarting explorer.exe](https://www.businessinsider.com/how-to-restart-windows-explorer)
+### For list of known issues, or if you encountered any problems, please visit the wiki.
 
 
 # List of skins
