@@ -4,10 +4,12 @@
 <a href="https://github.com/EnhancedJax/DitchedProjects/releases"><img src="https://img.shields.io/github/downloads/EnhancedJax/DitchedProjects/latest/total?label=Downloads&style=for-the-badge"></a>
 <a href="https://github.com/EnhancedJax/DitchedProjects/releases"><img src="https://img.shields.io/github/v/release/EnhancedJax/DitchedProjects?style=for-the-badge"></a>
 </p>
-Past rainmeter projects which were never finished. All the projects here are made by me and aims to replace the start menu, but failed due to number of reasons.
+
+Past [Rainmeter](https://www.rainmeter.net/) projects  and skins which were never finished. All the projects here are made by me and aims to replace the start menu, but failed due to number of reasons.
 Please also note that they are not meant to be stable or user friendly, as they are never near completed.
 
-### For list of known issues, or if you encountered any problems, please visit the wiki.
+
+### For list of known issues, or if you encountered any problems, please visit the [Wiki](https://github.com/EnhancedJax/DitchedProjects/wiki)
 
 
 # List of skins
