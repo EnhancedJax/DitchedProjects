@@ -15,13 +15,13 @@ app0=Firefox
 applink0="C:\Program Files\Mozilla Firefox\firefox.exe"
 
 app1=Spotify
-applink1="C:\Users\Jax4Real\AppData\Roaming\Spotify\spotify.exe"
+applink1="%USERPROFILE%\AppData\Roaming\Spotify\Spotify.exe"
 
 app2=Discord
-applink2="C:\Users\Jax4Real\AppData\Local\Discord\app-0.0.309\discord.exe"
+applink2="%USERPROFILE%\AppData\Local\Discord\app-1.0.9002\Discord.exe"
 
 app3=Screen Snip
-applink3="%windir%\system32\SnippingTool.exe"
+applink3="C:\Windows\explorer.exe ms-screenclip:"
 
 app4=Paint.net
 applink4="C:\Program Files\paint.net\PaintDotNet.exe"
@@ -33,26 +33,26 @@ app6=Steam
 applink6="C:\Program Files (x86)\Steam\Steam.exe"
 
 app7=Epic Games
-applink7="D:\Epic Games\Launcher\Portal\Binaries\Win32\EpicGamesLauncher.exe"
+applink7="C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win32\EpicGamesLauncher.exe"
 
 ;=============ROW 2===============
 AppCount2=7
 ;Update this value everytime you inserted a new value below.
 
 app8=Explorer
-applink8="C:\Windows\explorer.exe"
+applink8="%windir%\explorer.exe"
 
 app9=Whiteboard
 applink9="shell:appsfolder\Microsoft.Whiteboard_8wekyb3d8bbwe!Whiteboard"
 
 app10=Word
-applink10="C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.EXE"
+applink10="C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE"
 
 app11=Excel
-applink11="C:\Program Files (x86)\Microsoft Office\root\Office16\EXCEL.EXE"
+applink11="C:\Program Files\Microsoft Office\root\Office16\EXCEL.EXE"
 
 app12=Powerpoint
-applink12="C:\Program Files (x86)\Microsoft Office\root\Office16\POWERPNT.EXE"
+applink12="C:\Program Files\Microsoft Office\root\Office16\POWERPNT.EXE"
 
 app13=Photoshop
 applink13="C:\Program Files\Adobe\Adobe Photoshop CS6 (64 Bit)\Photoshop.exe"
@@ -64,7 +64,7 @@ app15=Illustrator
 applink15=""
 
 ;=============ROW 3===============
-AppCount3=2
+AppCount3=1
 ;Update this value everytime you inserted a new value below.
 
 app16=Calculator
@@ -72,9 +72,6 @@ applink16="C:\Windows\System32\Calc.exe"
 
 app17=Wallpaper Engine
 applink17="D:\SteamLibrary\steamapps\common\wallpaper_engine\wallpaper32.exe"
-
-app18=Groove
-applink18="D:\SteamLibrary\steamapps\common\wallpaper_engine\wallpaper32.exe"
 ;————————————————————————————————————————————————————————————————————————
 
 GameMaxIndex=7
@@ -115,16 +112,16 @@ web0=Reddit
 weblink0="https://www.reddit.com"
 
 web1=Calendar
-weblink1="https://calendar.google.com/calendar/u/0/r"
+weblink1="https://calendar.google.com"
 
 web2=Translate
-weblink2="https://translate.google.com#view=home&op=translate&sl=en&tl=zh-TW&text=Type%20here%20to%20start%20translation"
+weblink2="https://translate.google.com"
 
 web3=Youtube
 weblink3="https://www.youtube.com"
 
 web4=Classroom
-weblink4="https://classroom.google.com/u/1/a/not-turned-in/all"
+weblink4="https://classroom.google.com"
 
 web5=Whatsapp
 weblink5="https://web.whatsapp.com/"
